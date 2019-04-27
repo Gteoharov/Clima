@@ -140,7 +140,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
             locationManager.stopUpdatingLocation()
             locationManager.delegate = nil
             
-            print("longitude = \(location.coordinate.longitude), latitude = \(location.coordinate.latitude)")
             
             let latitude = String(location.coordinate.latitude)
             let longitude = String(location.coordinate.latitude)
