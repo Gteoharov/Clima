@@ -60,7 +60,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
     //MARK: - Networking
     /***************************************************************/
     
-    //Write the getWeatherData method here:
     
     func getWeatherData(url: String, parameters: [String: String]) {
         
